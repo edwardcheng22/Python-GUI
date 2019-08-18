@@ -1,0 +1,35 @@
+from tkinter import*
+import tkinter as tk
+
+
+import program_gui
+
+def load_gui(self):
+
+ 
+    self.txt_browse1 = tk.Entry(self.master,text="")
+    self.txt_browse1.grid(row=1,column=0,columnspan=3,padx=(10,0),pady=(0,0),sticky=W)
+    self.txt_browse2 = tk.Entry(self.master,text="")
+    self.txt_browse2.grid(row=2,column=0,columnspan=3,padx=(10,0),pady=(0,0),sticky=W)
+    
+    self.btn_browse1 = tk.Button(self.master,width=16,height=1,text='Browse...')
+    self.btn_browse1.grid(row=1,column=0,padx=(10,0),pady=(0,0),sticky=W)
+    self.btn_browse2 = tk.Button(self.master, width=16,height=1,text='Browse...')
+    self.btn_browse2.grid(row=2,column=0,padx=(10,0),pady=(0,0),sticky=W)
+    self.btn_checkfiles = tk.Button(self.master,width=16,height=3,text='Check for files...')
+    self.btn_checkfiles.grid(row=3,column=0,padx=(10,0),pady=(0,0),sticky=W)
+    self.btn_close = tk.Button(self.master, width=16,height=3,text='Close Program')
+    self.btn_close.grid(row=3,column=4,padx=(10,0),pady=(0,0),sticky=E)
+
+
+
+
+
+
+    
+
+    
+if __name__=="__main__":
+        pass
+        
+    
